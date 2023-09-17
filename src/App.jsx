@@ -11,8 +11,7 @@ function App() {
           <i className="fa-solid fa-play"></i>
         </span>
       </div>
-      <video controlsList="nodownload"  onContextMenu={() => {return false;}} muted autoPlay loop className='movie'>
-        <source src="/train.mp4" type='video/mp4' />
+      <video src="/train.mp4" type='video/mp4' controlsList="nodownload" onContextMenu={() => { return false; }} muted autoPlay loop className='movie'>
       </video>
     </>
   );
