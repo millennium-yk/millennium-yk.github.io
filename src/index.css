@@ -3,6 +3,8 @@
 html,body{
   overflow: hidden;
   background-color: #000;
+  position: absolute;
+  z-index: -5000;
 }
 
 * {
